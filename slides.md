@@ -50,7 +50,12 @@ image: /title-slide.png
 
 # Workshop Goals:
 
-- Learn the basics of generative AI, explore practical tools, and have fun experimenting
+- Understand what generative AI is and how it works  
+- Explore real-world examples of how AI already impacts our lives  
+- Learn key AI vocabulary and concepts like GPT, tokens, and prompts  
+- Practice writing effective prompts to get useful responses from ChatGPT  
+- Try hands-on tools and leave with ideas you can apply right away
+- And have fun experimenting
 
 ## Environment:
 
@@ -68,6 +73,8 @@ layout: quote
 
 # A few examples include:
 
+<v-clicks>
+
 1. **📸 Photo Tagging & Face Recognition** Your phone or social media app automatically groups your photos by faces or places—powered by AI.
 
 2. **🔍 Search Suggestions** As you type, search engines guess what you mean based on past searches and trends—thank AI for that.
@@ -82,23 +89,80 @@ layout: quote
 
 7. **🌡️ Smart Home Devices** Thermostats like Nest learn your preferences and adjust temperatures automatically to save energy.
 
+</v-clicks>
+
+---
+layout: two-cols-header
 ---
 
-# A few historic milestones of AI
+# 15 Milestones in AI History
 
-- 🧠 **1950**: Turing Test proposed by Alan Turing
-- 💾 **1951**: Marvin Minsky and Dean Edmonds build SNARC, the first artificial neural network​
-- 🧮 **1956**: The Term “Artificial Intelligence” was coined at a Dartmouth Conference
-- 🤖 **1966**: Eliza, the first chatbot capable of mimicking human conversation, is created by Joseph Weizenbaum​
-- 🖲️ **1997**: IBM’s Deep Blue beats world chess champ Garry Kasparov​
-- 📱 **2011**: Apple launches Siri, mainstreaming voice AI
-- 🕹️ **2014**: GANs invented by Ian Goodfellow
-- 👏🏻 **2016**: AlphaGo defeats top Go player, showcasing reinforcement learning
-- ⚙️ **2017**: Transformer architecture introduced (“Attention Is All You Need”)
-- 🧬 **2020**: DeepMind's AlphaFold solves major protein folding challenge
-- 🖼️ **2021**: OpenAI introduces DALL·E for text-to-image generation
-- 💬 **2022**: ChatGPT released, bringing LLMs to the mainstream
-- 🌐 **2023**: GPT-4 and other multimodal models emerge with advanced capabilities
+<v-clicks>
+
+::left::
+
+- **1950 – Turing Test Proposed**  
+  Alan Turing proposes a test for machine intelligence based on human-like conversation.
+
+- **1956 – Dartmouth Conference**  
+  Term "Artificial Intelligence" coined; birth of AI as a formal field.
+
+- **1958 – LISP Programming Language**  
+  John McCarthy creates LISP, the go-to AI language for decades.
+
+- **1966 – ELIZA Chatbot**  
+  Simulates a psychotherapist—early success in natural language processing.
+
+::right::
+
+- **1970s – Expert Systems Rise**  
+  Programs like MYCIN show machines can mimic expert decision-making.
+
+- **1987–1993 – AI Winter**  
+  Disillusionment and lack of funding slow progress significantly.
+
+- **1997 – Deep Blue Defeats Kasparov**  
+  First computer to beat a reigning chess world champion.
+
+- **2002 – Roomba Launches**  
+  Consumer AI enters homes with autonomous robot vacuum.
+
+</v-clicks>
+
+---
+layout: two-cols-header
+---
+
+# 15 Milestones in AI History (cont.)
+
+<v-clicks>
+
+::left::
+
+- **2011 – IBM Watson Wins Jeopardy!**  
+  Defeats human champions with deep NLP and fact retrieval.
+
+- **2012 – ImageNet & AlexNet Breakthrough**  
+  Deep learning revolution begins with CNNs and visual recognition success.
+
+- **2016 – AlphaGo Beats Lee Sedol**  
+  Reinforcement learning and self-play reach new levels of strategy.
+
+- **2020 – GPT-3 Released by OpenAI**  
+  Natural language generation reaches astonishing fluency and scale.
+
+::right::
+
+- **2022 – ChatGPT Goes Mainstream**  
+  Conversational AI enters daily use with GPT-powered assistants.
+
+- **2023 – AI-Generated Art and Code Boom**  
+  Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
+
+- **2024 – GPT-4 Multimodal Release**  
+  First major model to understand and generate both text and images with precision.
+
+<v-clicks>
 
 ---
 
