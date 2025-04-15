@@ -52,12 +52,12 @@ image: /title-slide.png
 
 - Understand what generative AI is and how it works  
 - Explore real-world examples of how AI already impacts our lives  
-- Learn key AI vocabulary and concepts like GPT, tokens, and prompts  
+- A few milestones in AI history and key AI vocabulary and concepts  
 - Practice writing effective prompts to get useful responses from ChatGPT  
 - Try hands-on tools and leave with ideas you can apply right away
-- And have fun experimenting
+- ...and **have fun** experimenting
 
-## Environment:
+## Workshop Environment:
 
 - Open, inclusive, and curiosity-driven
 
@@ -97,35 +97,31 @@ layout: two-cols-header
 
 # 15 Milestones in AI History
 
-<v-clicks>
-
 ::left::
 
-- **1950 – Turing Test Proposed**  
-  Alan Turing proposes a test for machine intelligence based on human-like conversation.
+<v-clicks>
 
-- **1956 – Dartmouth Conference**  
-  Term "Artificial Intelligence" coined; birth of AI as a formal field.
+- **1950 – Turing Test Proposed**<br>Alan Turing proposes a test for machine intelligence based on human-like conversation.
 
-- **1958 – LISP Programming Language**  
-  John McCarthy creates LISP, the go-to AI language for decades.
+- **1956 – Dartmouth Conference**<br>Term "Artificial Intelligence" coined; birth of AI as a formal field.
 
-- **1966 – ELIZA Chatbot**  
-  Simulates a psychotherapist—early success in natural language processing.
+- **1958 – LISP Programming Language**<br>John McCarthy creates LISP, the go-to AI language for decades.
+
+- **1966 – ELIZA Chatbot**<br>Simulates a psychotherapist—early success in natural language processing.
+
+</v-clicks>
 
 ::right::
 
-- **1970s – Expert Systems Rise**  
-  Programs like MYCIN show machines can mimic expert decision-making.
+<v-clicks>
 
-- **1987–1993 – AI Winter**  
-  Disillusionment and lack of funding slow progress significantly.
+- **1970s – Expert Systems Rise**<br>Programs like MYCIN show machines can mimic expert decision-making.
 
-- **1997 – Deep Blue Defeats Kasparov**  
-  First computer to beat a reigning chess world champion.
+- **1987–1993 – AI Winter**<br>Disillusionment and lack of funding slow progress significantly.
 
-- **2002 – Roomba Launches**  
-  Consumer AI enters homes with autonomous robot vacuum.
+- **1997 – Deep Blue Defeats Kasparov**<br>First computer to beat a reigning chess world champion.
+
+- **2002 – Roomba Launches**<br>Consumer AI enters homes with autonomous robot vacuum.
 
 </v-clicks>
 
@@ -135,34 +131,31 @@ layout: two-cols-header
 
 # 15 Milestones in AI History (cont.)
 
-<v-clicks>
-
 ::left::
 
-- **2011 – IBM Watson Wins Jeopardy!**  
-  Defeats human champions with deep NLP and fact retrieval.
+<v-clicks>
 
-- **2012 – ImageNet & AlexNet Breakthrough**  
-  Deep learning revolution begins with CNNs and visual recognition success.
+- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP and fact retrieval.
 
-- **2016 – AlphaGo Beats Lee Sedol**  
-  Reinforcement learning and self-play reach new levels of strategy.
+- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs and visual recognition success.
 
-- **2020 – GPT-3 Released by OpenAI**  
-  Natural language generation reaches astonishing fluency and scale.
+- **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
+
+- **2020 – GPT-3 Released by OpenAI**<br>Natural language generation reaches astonishing fluency and scale.
+
+</v-clicks>
 
 ::right::
 
-- **2022 – ChatGPT Goes Mainstream**  
-  Conversational AI enters daily use with GPT-powered assistants.
-
-- **2023 – AI-Generated Art and Code Boom**  
-  Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
-
-- **2024 – GPT-4 Multimodal Release**  
-  First major model to understand and generate both text and images with precision.
-
 <v-clicks>
+
+- **2022 – ChatGPT Goes Mainstream**<br>Conversational AI enters daily use with GPT-powered assistants.
+
+- **2023 – AI-Generated Art and Code Boom**<br>Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
+
+- **2024 – GPT-4 Multimodal Release**<br>First major model to understand and generate both text and images with precision.
+
+</v-clicks>
 
 ---
 
@@ -190,7 +183,9 @@ layout: two-cols-header
 
 ---
 
-# A few ways AI is used today
+# A few common ways AI is used today
+
+<v-clicks>
 
 1. 💬 **Conversational Assistants**  
    Chatbots like ChatGPT, Google Assistant, and Siri help answer questions and automate tasks.
@@ -207,6 +202,8 @@ layout: two-cols-header
 5. 🎙️ **Realistic Voice Companions**  
    Platforms like Sesame use expressive AI voices for engaging and humanlike conversations.
 
+</v-clicks>
+
 ---
 layout: center
 ---
@@ -215,6 +212,8 @@ layout: center
 ---
 
 # A few practical ways to use ChatGPT
+
+<v-clicks>
 
 1. 📝 **Draft Emails or Messages**  
    Quickly write polite, professional, or friendly emails and texts.
@@ -231,6 +230,8 @@ layout: center
 5. 🛠️ **Brainstorm Ideas**  
    Generate creative ideas for gifts, events, projects, or side hustles.
 
+</v-clicks>
+
 ---
 layout: center
 ---
@@ -239,6 +240,8 @@ layout: center
 ---
 
 # How to write a good prompt
+
+<v-clicks>
 
 - 🧩 **Be specific**  
   "Tell me a bedtime story about a robot and a cat" vs. "Write a story"
@@ -254,6 +257,8 @@ layout: center
 
 - 🔁 **Tweak and test**  
   If the first response isn't great, try rewording or asking from a new angle!
+
+</v-clicks>
 
 ---
 
