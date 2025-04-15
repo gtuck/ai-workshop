@@ -168,6 +168,11 @@ layout: center
    Generate creative ideas for gifts, events, projects, or side hustles.
 
 ---
+layout: center
+---
+# <a href="https://chatgpt.com" target="_blank">ChatGBT demo</a>
+
+---
 
 # How to write a good prompt
 
