@@ -66,12 +66,8 @@ image: /title-slide.png
 - Open, inclusive, and curiosity-driven
 
 ---
-layout: two-cols-header
----
 
 # Agenda + Housekeeping
-
-::left::
 
 ### Agenda
 - Welcome and intros (5)
@@ -81,8 +77,6 @@ layout: two-cols-header
 - Guided practice (20)
 - Share-outs (10)
 - Wrap and next steps (5)
-
-::right::
 
 ### Housekeeping
 - Wi‑Fi: [Liahona], Password: [alma3738]
@@ -128,15 +122,26 @@ layout: quote
 - 1956 — Dartmouth workshop coins “Artificial Intelligence”
 - 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
 - 2012 — ImageNet/AlexNet sparks modern deep learning boom
-- 2022–24 — ChatGPT goes mainstream; GPT‑4 expands multimodal abilities
+- 2022 — ChatGPT goes mainstream
+- 2024 - GPT‑4 expands multimodal abilities
 
+```mermaid
+timeline
+  title Key AI Moments
+  1950 : Alan Turing Test proposed
+  1956 : Dartmouth coins “AI”
+  1997 : Deep Blue beats Kasparov
+  2012 : ImageNet/AlexNet breakthrough
+  2022 : ChatGPT mainstream
+  2024 : GPT‑4 expands multimodal abilities
+```
 </v-clicks>
 
 ---
 layout: two-cols-header
 ---
 
-# Extra: More Milestones (optional)
+# More AI Milestones
 
 ::left::
 
@@ -165,60 +170,108 @@ layout: two-cols-header
 </v-clicks>
 
 ---
-
-# Common AI vocabulary
-
-| **Term**                                 | **What It Means**                                                                                                                  |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| AI (Artificial Intelligence)             | A computer system that can perform tasks usually requiring human intelligence (like understanding language or recognizing images). |
-| ML (Machine Learning)                    | A type of AI where computers learn from data and improve over time without being explicitly programmed.                            |
-| GPT (Generative Pre-trained Transformer) | A large language model trained on tons of text to predict and generate human-like responses.                                       |
-| LLM (Large Language Model)               | A type of AI trained on massive text data to understand and generate human language.                                               |
-| Transformer                              | The underlying architecture that powers many modern AI models, including GPT, is known for its "attention" mechanism.              |
-
+layout: two-cols-header
 ---
 
-# Common AI vocabulary (cont.)
+# Common AI Vocabulary
 
-| **Term**      | **What It Means**                                                                                                    |
-| ------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Token         | A piece of a word or character that the AI processes; for example, “chatting” might be split into “chat” and “ting”. |
-| Prompt        | The input or question you give to an AI—what you type to start the conversation.                                     |
-| Fine-Tuning   | Training a model to be better at specific tasks on a smaller, focused dataset.                                       |
-| Training Data | The information (usually lots of text) used to teach the AI how to understand and respond.                           |
-| Inference     | The process of the AI generating a response based on your input—it’s “thinking” time for the model.                  |
+::left::
 
----
+<v-clicks>
 
-# What ChatGPT Is and Isn’t
+- **AI (Artificial Intelligence)**<br>A computer system that can perform tasks usually requiring human intelligence (like understanding language or recognizing images).
 
-- Helpful for drafting, summarizing, brainstorming, translating
-- Can make mistakes (“hallucinations”); always fact‑check
-- Not medical, legal, or financial advice
-- May be out of date; ask for sources
+- **ML (Machine Learning)**<br>A type of AI where computers learn from data and improve over time without being explicitly programmed.
+
+- **GPT (Generative Pre-trained Transformer)**<br>A large language model trained on tons of text to predict and generate human-like responses.
+
+- **LLM (Large Language Model)**<br>A type of AI trained on massive text data to understand and generate human language.
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **Token**<br>A piece of a word or character that the AI processes; for example, “chatting” might be split into “chat” and “ting”.
+
+- **Prompt**<br>The input or question you give to an AI—what you type to start the conversation.
+
+- **Training Data**<br>The information (usually lots of text) used to teach the AI how to understand and respond.
+
+- **Inference**<br>The process of the AI generating a response based on your input—it’s “thinking” time for the model.
+
+</v-clicks>
 
 ---
 layout: two-cols-header
 ---
 
-# Privacy, Safety, Bias & Fairness
+# What ChatGPT Is and Isn’t
+
 
 ::left::
-### Privacy & Safety Basics
+
+## What it’s good at
+
+<v-clicks>
+
+- **Drafting and rewriting** → Generates first drafts, refines text, and adapts tone or style.
+
+- **Summarizing and outlining** → Condenses long materials into key points or structured outlines.
+
+- **Brainstorming ideas** → Sparks creativity for names, titles, lessons, or storylines.
+
+- **Explaining concepts** → Breaks down complex topics in plain language or step-by-step guides.
+
+- **Tutoring and learning aid** → Provides examples, explanations, and feedback for study or practice.
+
+</v-clicks>
+
+::right::
+
+## Limits and cautions
+
+<v-clicks>
+
+- **Can be wrong (“hallucinations”)** → May sound confident but provide incorrect information; always verify.
+
+- **Not medical, legal, or financial advice** → Use for learning, not for professional decision-making.
+
+- **May be out of date** → Some models don’t have live data; ask for sources or updates.
+
+- **Privacy matters** → Don’t share personal, confidential, or proprietary information.
+
+- **Biases exist** → Reflects training data patterns; double-check for fairness or accuracy.
+
+</v-clicks>
+
+---
+
+# Privacy & Safety Basics
 
 - Don’t paste private or financial information
 - Remove names/IDs before sharing content
 - Get consent before using others’ info or photos
 - Ask for summaries without uploading files when possible
 
-::right::
+```mermaid
+flowchart LR
+  S(Share with ChatGPT?) --> PII{Contains personal/financial info?}
+  PII -- Yes --> R[Redact names/IDs/addresses]
+  PII -- No --> C{Mentions others?
+  Need consent?}
+  R --> C
+  C -- Yes --> GC[Get consent or anonymize]
+  C -- No --> U{Need to upload a file?}
+  U -- No --> SUM[Paste excerpt / ask for summary]
+  U -- Yes --> CK[Remove sensitive data first]
+  CK --> Go[Proceed]
+  SUM --> Go
+```
 
-### Bias & Fairness
-
-- Outputs can reflect societal biases
-- Ask for neutral, inclusive language
-- Provide context that avoids stereotypes
-
+---
+layout: two-cols
 ---
 
 # Cost & Access
@@ -227,13 +280,13 @@ layout: two-cols-header
 - Paid tiers add extra features; optional
 - Use phones, shared devices, or library computers
 
----
+::right::
 
-# Multilingual & Accessibility Tips
+# Bias & Fairness
 
-- Try prompts in your preferred language
-- Ask to simplify to a reading level (e.g., 6th grade)
-- Request step‑by‑step instructions or outlines
+- Outputs can reflect societal biases
+- Ask for neutral, inclusive language
+- Provide context that avoids stereotypes
 
 ---
 
@@ -298,6 +351,33 @@ layout: center
 # <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
 
 ---
+ 
+# Everyday Uses (visual)
+
+```mermaid
+mindmap
+  root((Everyday Uses))
+    Draft
+      Emails
+      Texts
+    Plan
+      Schedules
+      Trips
+    Explain
+      Simple summaries
+      Step-by-step
+    Brainstorm
+      Ideas
+      Outlines
+    Translate
+      Language
+      Tone/reading level
+    Accessibility
+      Simplify to 6th grade
+      Checklists
+```
+
+---
 
 # How to write a good prompt
 
@@ -318,7 +398,20 @@ layout: center
 - 🔁 **Tweak and test**  
   If the first response isn't great, try rewording or asking from a new angle!
 
-</v-clicks>
+ </v-clicks>
+
+```mermaid
+flowchart LR
+  A[Role] --> B[Task]
+  B --> C[Context]
+  C --> D[Constraints]
+  D --> E[Desired Format]
+  E --> F[Submit]
+  F --> G{Good?}
+  G -- No --> H[Revise: add missing details]
+  H --> F
+  G -- Yes --> I[Use + fact-check]
+```
 
 ---
 
@@ -352,24 +445,18 @@ layout: two-cols-header
 - Share your results with the group (2–3 volunteers)
 
 ::right::
-<img width="375" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
+<img width="350" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
 <br>
 Scan to open chatgpt.com (free; sign‑in may be required)
 
 ---
-layout: two-cols-header
----
 
 # Practice Tracks
-
-::left::
 
 ### Beginner
 - Texts, emails, polite requests
 - Explain a concept simply
 - Outline or summarize
-
-::right::
 
 ### Advanced
 - Role + task + context + constraints + format
@@ -378,18 +465,13 @@ layout: two-cols-header
 
 ---
 
-# Try These Prompts
+# Practice Prompts
 
 - Draft a polite repair request to a landlord
 - Create a one‑page resume from a short work history
 - Plan a week of low‑cost dinners for 4 with a $60 budget
 - Translate a school letter into Spanish and simplify to 6th‑grade level
 - Outline steps to apply for a local job; draft a cover letter
-
----
-
-# Prompt Makeover (mini‑exercise)
-
 - Start vague: “Help with a resume”
 - Add context: job type, skills, constraints
 - Add format: bullet list with action verbs
