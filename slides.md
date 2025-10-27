@@ -62,6 +62,35 @@ image: /title-slide.png
 - Open, inclusive, and curiosity-driven
 
 ---
+
+# Agenda
+
+- Welcome and intros (5)
+- What is AI? (10)
+- Safety and privacy (5)
+- Demos (10)
+- Guided practice (20)
+- Share-outs (10)
+- Wrap and next steps (5)
+
+---
+
+# Housekeeping
+
+- Wi‑Fi: [Network], Password: [Password]
+- Pair up if you don’t have a device
+- Raise your hand for help anytime
+- Restrooms: [Location]
+
+---
+
+# Offline / Low‑Bandwidth Plan
+
+- If the site is slow, we’ll use pre‑captured screenshots
+- Facilitator stations available for quick demos
+- Printed prompt cards at tables for practice
+
+---
 layout: quote
 ---
 
@@ -95,33 +124,15 @@ layout: quote
 layout: two-cols-header
 ---
 
-# 15 Milestones in AI History
-
-::left::
+# 5 Moments That Matter (AI)
 
 <v-clicks>
 
-- **1950 – Turing Test Proposed**<br>Alan Turing proposes a test for machine intelligence based on human-like conversation.
-
-- **1956 – Dartmouth Conference**<br>Term "Artificial Intelligence" coined; birth of AI as a formal field.
-
-- **1958 – LISP Programming Language**<br>John McCarthy creates LISP, the go-to AI language for decades.
-
-- **1966 – ELIZA Chatbot**<br>Simulates a psychotherapist—early success in natural language processing.
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-- **1970s – Expert Systems Rise**<br>Programs like MYCIN show machines can mimic expert decision-making.
-
-- **1987–1993 – AI Winter**<br>Disillusionment and lack of funding slow progress significantly.
-
-- **1997 – Deep Blue Defeats Kasparov**<br>First computer to beat a reigning chess world champion.
-
-- **2002 – Roomba Launches**<br>Consumer AI enters homes with autonomous robot vacuum.
+- 1950 — Turing Test proposed (Can machines converse like humans?)
+- 1956 — Dartmouth workshop coins “Artificial Intelligence”
+- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
+- 2012 — ImageNet/AlexNet sparks modern deep learning boom
+- 2022–24 — ChatGPT goes mainstream; GPT‑4 expands multimodal abilities
 
 </v-clicks>
 
@@ -129,7 +140,7 @@ layout: two-cols-header
 layout: two-cols-header
 ---
 
-# 15 Milestones in AI History (cont.)
+# Extra: More Milestones (optional)
 
 ::left::
 
@@ -183,6 +194,48 @@ layout: two-cols-header
 
 ---
 
+# What ChatGPT Is and Isn’t
+
+- Helpful for drafting, summarizing, brainstorming, translating
+- Can make mistakes (“hallucinations”); always fact‑check
+- Not medical, legal, or financial advice
+- May be out of date; ask for sources
+
+---
+
+# Privacy & Safety Basics
+
+- Don’t paste private or financial information
+- Remove names/IDs before sharing content
+- Get consent before using others’ info or photos
+- Ask for summaries without uploading files when possible
+
+---
+
+# Bias & Fairness
+
+- Outputs can reflect societal biases
+- Ask for neutral, inclusive language
+- Provide context that avoids stereotypes
+
+---
+
+# Cost & Access
+
+- Free tier available at chatgpt.com
+- Paid tiers add extra features; optional
+- Use phones, shared devices, or library computers
+
+---
+
+# Multilingual & Accessibility Tips
+
+- Try prompts in your preferred language
+- Ask to simplify to a reading level (e.g., 6th grade)
+- Request step‑by‑step instructions or outlines
+
+---
+
 # A few common ways AI is used today
 
 <v-clicks>
@@ -230,12 +283,18 @@ layout: center
 5. 🛠️ **Brainstorm Ideas**  
    Generate creative ideas for gifts, events, projects, or side hustles.
 
+6. 🌍 **Translate and Adapt**  
+   Translate messages and adjust tone/reading level for your audience.
+
+7. ♿ **Accessibility Helpers**  
+   Simplify to a 6th‑grade reading level or generate step‑by‑step checklists.
+
 </v-clicks>
 
 ---
 layout: center
 ---
-# <a href="https://chatgpt.com" target="_blank">ChatGBT demo</a>
+# <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
 
 ---
 
@@ -282,21 +341,63 @@ layout: two-cols-header
 
 ::left::
 
-- On your phone:
-  - Scan the QR code to access the free version
+- Timebox: 10 minutes
+- On your phone or a shared device:
+  - Scan the QR code to open chatgpt.com (free; sign‑in may be required)
 - Enter your prompt - Let's start with:
   - "Plan a 3-day road trip through Utah with kids."
   - Now, try changing the destination or group type.
-- Share your results with the group
+- No smartphone? Pair with a neighbor or visit a facilitator station
+- Share your results with the group (2–3 volunteers)
 
 ::right::
-<img width="375" src="/chatGBT-qr.png" />
+<img width="375" src="/chatGBT-qr.png" alt="QR code linking to chatgpt.com" />
+<br>
+Scan to open chatgpt.com (free; sign‑in may be required)
+
+# Practice Tracks
+---
+
+# Practice Tracks
+
+::left::
+
+### Beginner
+- Texts, emails, polite requests
+- Explain a concept simply
+- Outline or summarize
+
+::right::
+
+### Advanced
+- Role + task + context + constraints + format
+- Tables, bullet formatting, JSON
+- Iterative refinement (ask for improvements)
+
+---
+
+# Try These Prompts
+
+- Draft a polite repair request to a landlord
+- Create a one‑page resume from a short work history
+- Plan a week of low‑cost dinners for 4 with a $60 budget
+- Translate a school letter into Spanish and simplify to 6th‑grade level
+- Outline steps to apply for a local job; draft a cover letter
+
+---
+
+# Prompt Makeover (mini‑exercise)
+
+- Start vague: “Help with a resume”
+- Add context: job type, skills, constraints
+- Add format: bullet list with action verbs
+- Improve tone: professional and confident
 
 ---
 
 # Questions?
 
-<img src="/qna-slide.png" />
+<img src="/qna-slide.png" alt="Questions and answers illustration" />
 
 ---
 layout: image-left
@@ -304,10 +405,20 @@ layout: image-left
 image: /end-slide.png
 ---
 
+# Resources & Next Steps
+
+- Starter prompt pattern: role + task + context + constraints + format
+- Fact‑check prompts: “Provide sources” and “Where might this be wrong?”
+- Local resources: [Library], [Community center hours], [Digital literacy help]
+- Contact: [Your email or office hours]
+- Feedback: add your form/QR link here
+
+---
+
 # Happy trails!
 
 👋🏻 Thanks for your time.
 
-💡 Want more? Visit <a href="https://chat.openai.com" target="_blank">chat.openai.com</a> or scan the QR code again anytime.
+💡 Want more? Visit <a href="https://chatgpt.com" target="_blank">chatgpt.com</a> or scan the QR code again anytime.
 
-<img width="300" src="/chatGBT-qr.png" />
+<img width="300" src="/chatGBT-qr.png" alt="QR code linking to chatgpt.com" />
