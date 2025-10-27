@@ -119,10 +119,6 @@ layout: quote
 
 </v-clicks>
 
----
-layout: two-cols-header
----
-
 # 5 Moments That Matter (AI)
 
 <v-clicks>
@@ -354,6 +350,8 @@ layout: two-cols-header
 <br>
 Scan to open chatgpt.com (free; sign‑in may be required)
 
+---
+layout: two-cols-header
 ---
 
 # Practice Tracks
