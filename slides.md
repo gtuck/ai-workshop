@@ -77,10 +77,9 @@ image: /title-slide.png
 
 # Housekeeping
 
-- Wi‑Fi: [Network], Password: [Password]
+- Wi‑Fi: [Liahona], Password: [alma3738]
 - Pair up if you don’t have a device
 - Raise your hand for help anytime
-- Restrooms: [Location]
 
 ---
 
@@ -355,7 +354,6 @@ layout: two-cols-header
 <br>
 Scan to open chatgpt.com (free; sign‑in may be required)
 
-# Practice Tracks
 ---
 
 # Practice Tracks
@@ -409,9 +407,7 @@ image: /end-slide.png
 
 - Starter prompt pattern: role + task + context + constraints + format
 - Fact‑check prompts: “Provide sources” and “Where might this be wrong?”
-- Local resources: [Library], [Community center hours], [Digital literacy help]
-- Contact: [Your email or office hours]
-- Feedback: add your form/QR link here
+- Contact: gtuck@weber.edu
 
 ---
 
