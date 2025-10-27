@@ -30,6 +30,10 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+.two-cols-header .grid-cols-2 {
+  align-items: start;
+}
 </style>
 
 # Welcome
@@ -62,9 +66,14 @@ image: /title-slide.png
 - Open, inclusive, and curiosity-driven
 
 ---
+layout: two-cols-header
+---
 
-# Agenda
+# Agenda + Housekeeping
 
+::left::
+
+### Agenda
 - Welcome and intros (5)
 - What is AI? (10)
 - Safety and privacy (5)
@@ -73,21 +82,12 @@ image: /title-slide.png
 - Share-outs (10)
 - Wrap and next steps (5)
 
----
+::right::
 
-# Housekeeping
-
+### Housekeeping
 - Wi‑Fi: [Liahona], Password: [alma3738]
 - Pair up if you don’t have a device
 - Raise your hand for help anytime
-
----
-
-# Offline / Low‑Bandwidth Plan
-
-- If the site is slow, we’ll use pre‑captured screenshots
-- Facilitator stations available for quick demos
-- Printed prompt cards at tables for practice
 
 ---
 layout: quote
@@ -198,17 +198,22 @@ layout: two-cols-header
 - May be out of date; ask for sources
 
 ---
+layout: two-cols-header
+---
 
-# Privacy & Safety Basics
+# Privacy, Safety, Bias & Fairness
+
+::left::
+### Privacy & Safety Basics
 
 - Don’t paste private or financial information
 - Remove names/IDs before sharing content
 - Get consent before using others’ info or photos
 - Ask for summaries without uploading files when possible
 
----
+::right::
 
-# Bias & Fairness
+### Bias & Fairness
 
 - Outputs can reflect societal biases
 - Ask for neutral, inclusive language
