@@ -118,6 +118,7 @@ layout: quote
 7. **🌡️ Smart Home Devices** Thermostats like Nest learn your preferences and adjust temperatures automatically to save energy.
 
 </v-clicks>
+---
 
 # 5 Moments That Matter (AI)
 
@@ -346,7 +347,7 @@ layout: two-cols-header
 - Share your results with the group (2–3 volunteers)
 
 ::right::
-<img width="375" src="/chatGBT-qr.png" alt="QR code linking to chatgpt.com" />
+<img width="375" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
 <br>
 Scan to open chatgpt.com (free; sign‑in may be required)
 
@@ -415,4 +416,4 @@ image: /end-slide.png
 
 💡 Want more? Visit <a href="https://chatgpt.com" target="_blank">chatgpt.com</a> or scan the QR code again anytime.
 
-<img width="300" src="/chatGBT-qr.png" alt="QR code linking to chatgpt.com" />
+<img width="300" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
