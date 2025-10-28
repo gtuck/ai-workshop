@@ -427,17 +427,20 @@ flowchart LR
 
 ---
 
-# Prompt ideas
+# Prompt Ideas You Can Try Right Now
 
-- Draft a polite repair request to a landlord
-- Create a one‑page resume from a short work history
-- Plan a week of low‑cost dinners for 4 with a $60 budget
-- Translate a school letter into Spanish and simplify to 6th‑grade level
-- Outline steps to apply for a local job; draft a cover letter
-- Start vague: “Help with a resume”
-- Add context: job type, skills, constraints
-- Add format: bullet list with action verbs
-- Improve tone: professional and confident
+1. ✉️ Write a polite message to reschedule my dentist appointment.
+
+2. 🧑‍🍳 Give me a 3-day healthy meal plan with simple recipes.
+
+3. 🧠 Explain how interest rates work like I’m in 9th grade.
+
+4. 🧳 Suggest a weekend getaway near [a city] under $300.
+
+5. 🎁 What’s a fun birthday gift idea for a 12-year-old who loves space?
+
+6. 🐶 Write a funny haiku about a dog who’s afraid of squirrels.
+
 
 ---
 layout: two-cols-header
@@ -450,7 +453,7 @@ layout: two-cols-header
 - On your phone or a shared device:
   - Scan the QR code to open chatgpt.com (free; sign‑in may be required)
 - Enter your prompt:
-  - "Plan a 3-day road trip through Utah with kids."
+  - Example: Plan a 3-day Southern Utah road trip with kids (ages, 12, 9. 6).
   - Now, try changing the destination or group type.
 - No smartphone? Pair with a neighbor.
 - Share your results with the group (2–3 volunteers)
