@@ -9,7 +9,7 @@ colorSchema: dark
 favicon: "https://garthtuck.com/images/favicon.ico"
 
 # some information about your slides (markdown enabled)
-title: Getting Started with ChatGPT
+title: Getting Started with AI
 class: text-center
 layout: center
 
@@ -40,7 +40,7 @@ h1 {
 
 <br>
 
-**Getting Started with ChatGPT**
+**Getting Started with AI**
 
 ### Presenter:
 
@@ -59,23 +59,20 @@ image: /title-slide.png
 - A few milestones in AI history and key AI vocabulary and concepts  
 - Practice writing effective prompts to get useful responses from ChatGPT  
 - Try hands-on tools and leave with ideas you can apply right away
-- ...and **have fun** experimenting
-
-## Workshop Environment:
-
-- Open, inclusive, and curiosity-driven
 
 ---
 
 # Agenda + Housekeeping
 
+### Workshop Environment:
+- Open, inclusive, and curiosity-driven
+
 ### Agenda
 - Welcome and intros (5)
 - What is AI? (10)
 - Safety and privacy (5)
-- Demos (10)
+- Demos (15)
 - Guided practice (20)
-- Share-outs (10)
 - Wrap and next steps (5)
 
 ### Housekeeping
@@ -118,23 +115,19 @@ layout: quote
 
 <v-clicks>
 
-- 1950 — Turing Test proposed (Can machines converse like humans?)
-- 1956 — Dartmouth workshop coins “Artificial Intelligence”
-- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
-- 2012 — ImageNet/AlexNet sparks modern deep learning boom
-- 2022 — ChatGPT goes mainstream
-- 2024 - GPT‑4 expands multimodal abilities
-
 ```mermaid
 timeline
-  title Key AI Moments
   1950 : Alan Turing Test proposed
   1956 : Dartmouth coins “AI”
   1997 : Deep Blue beats Kasparov
   2012 : ImageNet/AlexNet breakthrough
   2022 : ChatGPT mainstream
-  2024 : GPT‑4 expands multimodal abilities
 ```
+- 1950 — Turing Test proposed (Can machines converse like humans?)
+- 1956 — Dartmouth workshop coins “Artificial Intelligence”
+- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
+- 2012 — ImageNet/AlexNet sparks modern deep learning boom
+- 2022 — ChatGPT goes mainstream
 </v-clicks>
 
 ---
@@ -294,28 +287,35 @@ layout: two-cols
 
 <v-clicks>
 
-1. 💬 **Conversational Assistants**  
-   Chatbots like ChatGPT, Google Assistant, and Siri help answer questions and automate tasks.
+- 💬 **Conversational Assistants:**  
+  Chatbots like ChatGPT, Google Assistant, and Siri help answer questions and automate everyday tasks.
 
-2. 🎨 **Image and Art Generation**  
-   Tools like DALL-E and Midjourney create custom images from simple text prompts.
+- 🎨 **Image and Art Generation:**  
+  Tools such as DALL·E and Midjourney can create unique images from simple text prompts.
 
-3. 📈 **Business Productivity**  
-   Automate emails, summarize meetings, write reports, and generate marketing content.
+- 📈 **Business Productivity:**  
+  Automate emails, summarize meetings, write reports, and generate marketing content.
 
-4. 🧠 **Education and Tutoring**  
-   Personalized explanations, language learning support, and homework help.
+- 🧠 **Education & Tutoring:**  
+  Personalized explanations, homework help, and support for language learning.
 
-5. 🎙️ **Realistic Voice Companions**  
-   Platforms like Sesame use expressive AI voices for engaging and humanlike conversations.
+- 🎙️ **Realistic Voice Companions:**  
+  Platforms such as Sesame feature expressive AI voices for lifelike conversation.
+
+- 🎥 **Ultra-Realistic AI Video Creation (New!):**  
+  Sora 2 by OpenAI lets you turn text prompts into cinematic videos, animate people or pets, and add music or sound effects.  
 
 </v-clicks>
 
 ---
 layout: center
 ---
-# <a href="https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice#demo" target="_blank">Conversational voice demo</a>
+# <a href="https://app.sesame.com/" target="_blank">Conversational voice demo</a>
 
+---
+layout: center
+---
+# <a href="https://sora.chatgpt.com/explore" target="_blank">Video creation demo</a>
 ---
 
 # A few practical ways to use ChatGPT
@@ -352,8 +352,6 @@ layout: center
 
 ---
  
-# Everyday Uses (visual)
-
 ```mermaid
 mindmap
   root((Everyday Uses))
@@ -381,6 +379,18 @@ mindmap
 
 # How to write a good prompt
 
+```mermaid
+flowchart LR
+  A[Role] --> B[Task]
+  B --> C[Context]
+  C --> D[Constraints]
+  D --> E[Desired Format]
+  E --> F[Submit]
+  F --> G{Good?}
+  G -- No --> H[Revise: add missing details]
+  H --> F
+  G -- Yes --> I[Use + fact-check]
+```
 <v-clicks>
 
 - 🧩 **Be specific**  
@@ -400,19 +410,6 @@ mindmap
 
  </v-clicks>
 
-```mermaid
-flowchart LR
-  A[Role] --> B[Task]
-  B --> C[Context]
-  C --> D[Constraints]
-  D --> E[Desired Format]
-  E --> F[Submit]
-  F --> G{Good?}
-  G -- No --> H[Revise: add missing details]
-  H --> F
-  G -- Yes --> I[Use + fact-check]
-```
-
 ---
 
 # For example:
@@ -429,43 +426,8 @@ flowchart LR
 "Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health."
 
 ---
-layout: two-cols-header
----
-# Group Activity - Try ChatGPT yourself!
 
-::left::
-
-- Timebox: 10 minutes
-- On your phone or a shared device:
-  - Scan the QR code to open chatgpt.com (free; sign‑in may be required)
-- Enter your prompt - Let's start with:
-  - "Plan a 3-day road trip through Utah with kids."
-  - Now, try changing the destination or group type.
-- No smartphone? Pair with a neighbor or visit a facilitator station
-- Share your results with the group (2–3 volunteers)
-
-::right::
-<img width="350" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
-<br>
-Scan to open chatgpt.com (free; sign‑in may be required)
-
----
-
-# Practice Tracks
-
-### Beginner
-- Texts, emails, polite requests
-- Explain a concept simply
-- Outline or summarize
-
-### Advanced
-- Role + task + context + constraints + format
-- Tables, bullet formatting, JSON
-- Iterative refinement (ask for improvements)
-
----
-
-# Practice Prompts
+# Prompt ideas
 
 - Draft a polite repair request to a landlord
 - Create a one‑page resume from a short work history
@@ -478,6 +440,28 @@ Scan to open chatgpt.com (free; sign‑in may be required)
 - Improve tone: professional and confident
 
 ---
+layout: two-cols-header
+---
+# Group Activity - Try ChatGPT yourself!
+
+::left::
+
+- **Timebox: 10 minutes**
+- On your phone or a shared device:
+  - Scan the QR code to open chatgpt.com (free; sign‑in may be required)
+- Enter your prompt:
+  - "Plan a 3-day road trip through Utah with kids."
+  - Now, try changing the destination or group type.
+- No smartphone? Pair with a neighbor.
+- Share your results with the group (2–3 volunteers)
+
+::right::
+<img width="300" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
+<br>
+Scan to open chatgpt.com (free; sign‑in may be required)
+
+
+---
 
 # Questions?
 
@@ -487,14 +471,6 @@ Scan to open chatgpt.com (free; sign‑in may be required)
 layout: image-left
 
 image: /end-slide.png
----
-
-# Resources & Next Steps
-
-- Starter prompt pattern: role + task + context + constraints + format
-- Fact‑check prompts: “Provide sources” and “Where might this be wrong?”
-- Contact: gtuck@weber.edu
-
 ---
 
 # Happy trails!
