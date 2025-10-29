@@ -112,59 +112,6 @@ layout: quote
 
 </v-clicks>
 ---
-
-# 5 Moments That Matter (AI)
-
-<v-clicks>
-
-```mermaid
-timeline
-  1950 : Alan Turing Test proposed
-  1956 : Dartmouth coins “AI”
-  1997 : Deep Blue beats Kasparov
-  2012 : ImageNet/AlexNet breakthrough
-  2022 : ChatGPT mainstream
-```
-- 1950 — Turing Test proposed (Can machines converse like humans?)
-- 1956 — Dartmouth workshop coins “Artificial Intelligence”
-- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
-- 2012 — ImageNet/AlexNet sparks modern deep learning boom
-- 2022 — ChatGPT goes mainstream
-</v-clicks>
-
----
-layout: two-cols-header
----
-
-# More AI Milestones
-
-::left::
-
-<v-clicks>
-
-- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP and fact retrieval.
-
-- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs and visual recognition success.
-
-- **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
-
-- **2020 – GPT-3 Released by OpenAI**<br>Natural language generation reaches astonishing fluency and scale.
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-- **2022 – ChatGPT Goes Mainstream**<br>Conversational AI enters daily use with GPT-powered assistants.
-
-- **2023 – AI-Generated Art and Code Boom**<br>Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
-
-- **2024 – GPT-4 Multimodal Release**<br>First major model to understand and generate both text and images with precision.
-
-</v-clicks>
-
----
 layout: two-cols-header
 ---
 
@@ -199,6 +146,68 @@ layout: two-cols-header
 </v-clicks>
 
 ---
+
+# Moments That Matter (AI)
+
+```mermaid
+timeline
+  1950 : Alan Turing Test proposed
+  1956 : Dartmouth coins “AI”
+  1997 : Deep Blue beats Kasparov
+  2012 : ImageNet/AlexNet breakthrough
+  2022 : ChatGPT mainstream
+  2025 : Sora 2 Video Creation
+```
+
+<v-clicks>
+
+- 1950 — Turing Test proposed (Can machines converse like humans?)
+- 1956 — Dartmouth workshop coins “Artificial Intelligence”
+- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
+- 2012 — ImageNet/AlexNet sparks modern deep learning boom
+- 2022 — ChatGPT goes mainstream
+- 2025 - Sora 2 video creation
+
+</v-clicks>
+
+---
+layout: two-cols-header
+---
+
+# More AI Milestones
+
+::left::
+
+<v-clicks>
+
+- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP and fact retrieval.
+
+- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs and visual recognition success.
+
+- **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
+
+- **2020 – GPT-3 Released by OpenAI**<br>Natural language generation reaches astonishing fluency and scale.
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **2022 – ChatGPT Goes Mainstream**<br>Conversational AI enters daily use with GPT-powered assistants.
+
+- **2023 – AI-Generated Art and Code Boom**<br>Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
+
+- **2024 – GPT-4 Multimodal Release**<br>First major model to understand and generate both text and images with precision.
+
+- **2025 – Sora 2 Release**<br>Model for generating highly realistic, physics-accurate video clips with audio.
+
+</v-clicks>
+<br>
+<br>
+<br>
+
+---
 layout: two-cols-header
 ---
 
@@ -207,7 +216,11 @@ layout: two-cols-header
 
 ::left::
 
+<v-clicks>
+
 ## What it’s good at
+
+</v-clicks>
 
 <v-clicks>
 
@@ -225,7 +238,11 @@ layout: two-cols-header
 
 ::right::
 
+<v-clicks>
+
 ## Limits and cautions
+
+</v-clicks>
 
 <v-clicks>
 
@@ -245,13 +262,20 @@ layout: two-cols-header
 
 # Privacy & Safety Basics
 
+<v-clicks>
+
 - Don’t paste private or financial information
 - Remove names/IDs before sharing content
 - Get consent before using others’ info or photos
 - Ask for summaries without uploading files when possible
+
+</v-clicks>
+
 <br>
-<hr>
 <br>
+
+<v-clicks>
+
 ```mermaid
 flowchart LR
   S(Share with ChatGPT?) --> PII{Contains personal/financial info?}
@@ -266,6 +290,8 @@ flowchart LR
   CK --> Go[Proceed]
   SUM --> Go
 ```
+
+</v-clicks>
 
 ---
 
@@ -296,12 +322,20 @@ flowchart LR
 ---
 layout: center
 ---
+
 # <a href="https://app.sesame.com/" target="_blank">Conversational voice demo</a>
 
 ---
 layout: center
 ---
+
 # <a href="https://sora.chatgpt.com/explore" target="_blank">Video creation demo</a>
+---
+layout: center
+---
+
+# <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
+
 ---
 
 # A few practical ways to use ChatGPT
@@ -332,11 +366,6 @@ layout: center
 </v-clicks>
 
 ---
-layout: center
----
-# <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
-
----
 
 ```mermaid
 mindmap
@@ -365,6 +394,8 @@ mindmap
 
 # How to write a good prompt
 
+<v-clicks>
+
 ```mermaid
 flowchart LR
   A[Role] --> B[Task]
@@ -377,20 +408,18 @@ flowchart LR
   H --> F
   G -- Yes --> I[Use + fact-check]
 ```
+</v-clicks>
+
 <v-clicks>
 
 - 🧩 **Be specific**  
   "Tell me a bedtime story about a robot and a cat" vs. "Write a story"
-
 - 🗣️ **Use natural language**  
   Pretend you're talking to a helpful friend, not coding a machine.
-
 - 🎨 **Set the tone**  
   Want it funny? Professional? Thoughtful? Just say so!
-
 - 💡 **Give examples**  
   "Make it sound like a Shakespearean poem" or "List it like a recipe."
-
 - 🔁 **Tweak and test**  
   If the first response isn't great, try rewording or asking from a new angle!
 
