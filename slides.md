@@ -3,7 +3,7 @@ theme: apple-basic
 # background: https://cover.sli.dev
 
 # force color schema for the slides, can be 'auto', 'light', or 'dark'
-colorSchema: dark
+colorSchema: light
 
 # favicon, can be a local file path or URL
 favicon: "https://garthtuck.com/images/favicon.ico"
@@ -30,15 +30,9 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-
-.two-cols-header .grid-cols-2 {
-  align-items: start;
-}
 </style>
 
 # Welcome
-
-<br>
 
 **Getting Started with AI**
 
@@ -59,10 +53,15 @@ image: /title-slide.png
 - A few milestones in AI history and key AI vocabulary and concepts  
 - Practice writing effective prompts to get useful responses from ChatGPT  
 - Try hands-on tools and leave with ideas you can apply right away
+- Have FUN!!!
 
+---
+layout: two-cols-header
 ---
 
 # Agenda + Housekeeping
+
+::left::
 
 ### Workshop Environment:
 - Open, inclusive, and curiosity-driven
@@ -75,10 +74,13 @@ image: /title-slide.png
 - Guided practice (20)
 - Wrap and next steps (5)
 
+::right::
+
 ### Housekeeping
 - Wi‑Fi: [Liahona], Password: [alma3738]
 - Pair up if you don’t have a device
 - Raise your hand for help anytime
+<br><br><br><br><br><br><br><br><br>
 
 ---
 layout: quote
@@ -247,7 +249,9 @@ layout: two-cols-header
 - Remove names/IDs before sharing content
 - Get consent before using others’ info or photos
 - Ask for summaries without uploading files when possible
-
+<br>
+<hr>
+<br>
 ```mermaid
 flowchart LR
   S(Share with ChatGPT?) --> PII{Contains personal/financial info?}
@@ -262,24 +266,6 @@ flowchart LR
   CK --> Go[Proceed]
   SUM --> Go
 ```
-
----
-layout: two-cols
----
-
-# Cost & Access
-
-- Free tier available at chatgpt.com
-- Paid tiers add extra features; optional
-- Use phones, shared devices, or library computers
-
-::right::
-
-# Bias & Fairness
-
-- Outputs can reflect societal biases
-- Ask for neutral, inclusive language
-- Provide context that avoids stereotypes
 
 ---
 
@@ -351,10 +337,10 @@ layout: center
 # <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
 
 ---
- 
+
 ```mermaid
 mindmap
-  root((Everyday Uses))
+  root((**Everyday Uses**))
     Draft
       Emails
       Texts
@@ -429,6 +415,8 @@ flowchart LR
 
 # Prompt Ideas You Can Try Right Now
 
+<v-clicks>
+
 1. ✉️ Write a polite message to reschedule my dentist appointment.
 
 2. 🧑‍🍳 Give me a 3-day healthy meal plan with simple recipes.
@@ -441,28 +429,32 @@ flowchart LR
 
 6. 🐶 Write a funny haiku about a dog who’s afraid of squirrels.
 
+</v-clicks>
+
 
 ---
 layout: two-cols-header
 ---
+
 # Group Activity - Try ChatGPT yourself!
 
 ::left::
 
-- **Timebox: 10 minutes**
+- **<u>Timebox: 10 minutes</u>**
 - On your phone or a shared device:
-  - Scan the QR code to open chatgpt.com (free; sign‑in may be required)
-- Enter your prompt:
+  - Scan the QR code to open chatgpt.com →
+- **<u>Enter your prompt:</u>**
   - Example: Plan a 3-day Southern Utah road trip with kids (ages, 12, 9. 6).
   - Now, try changing the destination or group type.
 - No smartphone? Pair with a neighbor.
 - Share your results with the group (2–3 volunteers)
 
 ::right::
+
 <img width="300" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
 <br>
-Scan to open chatgpt.com (free; sign‑in may be required)
-
+<br>
+<br>
 
 ---
 
@@ -473,7 +465,7 @@ Scan to open chatgpt.com (free; sign‑in may be required)
 ---
 layout: image-left
 
-image: /end-slide.png
+image: end-slide.png
 ---
 
 # Happy trails!
