@@ -183,9 +183,9 @@ layout: two-cols-header
 
 <v-clicks>
 
-- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP and fact retrieval.
+- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP (Natural Language Processing) and fact retrieval.
 
-- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs and visual recognition success.
+- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs (Convolutional Neural Networks) and visual recognition success.
 
 - **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
 
@@ -267,18 +267,44 @@ layout: two-cols-header
 
 <v-clicks>
 
-- Don’t paste private or financial information
-- Remove names/IDs before sharing content
-- Get consent before using others’ info or photos
-- Ask for summaries without uploading files when possible
+- **Don't share private, financial, or sensitive information.**
+
+- **Remove names, IDs, and other identifiers before sharing content.**
+
+- **Get consent before including others' information or photos.**
+
+- **Review the AI platform's privacy policy** to understand how your data is used or stored.
+
+- **Opt out** of data being used for model training, if possible.
+
+- **Follow all legal and institutional privacy requirements** (FERPA, HIPAA, GDPR, etc.).
+
+- **Remember:** Even "anonymized" data may still be identifiable if context is unique or detailed.
+
+- **Use summaries or excerpts instead of uploading full files.**
 
 </v-clicks>
 
-<br>
-<br>
+---
+
+# Checklist Before Sharing
 
 <v-clicks>
 
+- **Does this include sensitive/personal/financial info?**
+  - ➔ Redact or remove details; ensure it's truly anonymized.
+
+- **Are other people referenced?**
+  - ➔ Get explicit consent, or further anonymize content.
+
+- **Need to upload a file?**
+  - ➔ Use excerpts or summaries; remove sensitive data.
+  
+- **Have you checked the platform's privacy policy and settings?**
+
+</v-clicks>
+
+<!-- 
 ```mermaid
 flowchart LR
   S(Share with ChatGPT?) --> PII{Contains personal/financial info?}
@@ -292,9 +318,8 @@ flowchart LR
   U -- Yes --> CK[Remove sensitive data first]
   CK --> Go[Proceed]
   SUM --> Go
-```
-
-</v-clicks>
+``` 
+-->
 
 ---
 
