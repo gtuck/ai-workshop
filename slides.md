@@ -1,24 +1,18 @@
 ---
 theme: apple-basic
 # background: https://cover.sli.dev
-
 # force color schema for the slides, can be 'auto', 'light', or 'dark'
 colorSchema: light
-
 # favicon, can be a local file path or URL
 favicon: "https://garthtuck.com/images/favicon.ico"
-
 # some information about your slides (markdown enabled)
 title: Getting Started with AI
 class: text-center
 layout: center
-
 # author field for exported PDF or PPTX
 author: Garth Tuck
-
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-
 # download: true
 # exportFilename: Garth-Tuck-AI-Workshop
 ---
@@ -40,12 +34,10 @@ h1 {
 **Getting Started with AI**
 
 ### Presenter:
-
 **Garth Tuck**
 
 ---
 layout: image-right
-
 image: /title-slide.png
 ---
 
@@ -56,415 +48,253 @@ image: /title-slide.png
 - A few milestones in AI history and key AI vocabulary and concepts  
 - Practice writing effective prompts to get useful responses from ChatGPT  
 - Try hands-on tools and leave with ideas you can apply right away
-- Have FUN!!!
 
 ---
-layout: two-cols-header
+layout: image-right
+image: /genai.png
 ---
 
-# Agenda + Housekeeping
+# What is Generative AI?
 
-::left::
+**Generative AI** is a type of artificial intelligence that can create **new content** — like text, images, music, or code — based on patterns it learned from **existing data**.
 
-### Workshop Environment:
-- Open, inclusive, and curiosity-driven
+Think of it like this:
+- You give it a **prompt** (a question or instruction).
+- It analyzes tons of examples it's seen before.
+- It produces something **new** that matches what you asked for.
 
-### Agenda
-- Welcome and intros (5)
-- What is AI? (10)
-- Safety and privacy (5)
-- Demos (15)
-- Guided practice (20)
-- Wrap and next steps (5)
-
-::right::
-
-### Housekeeping
-- Wi‑Fi: [Liahona], Password: [alma3738]
-- Pair up if you don’t have a device
-- Raise your hand for help anytime
-<br><br><br><br><br><br><br><br><br>
+**Example:**
+"Write a friendly email to reschedule my meeting."
+→ ChatGPT writes a polite message for you.
 
 ---
-layout: quote
+layout: two-cols
 ---
 
-# AI in our world
+# How Does It Work?
 
-**Where do you think AI might already be helping you in daily life—without you even realizing it?**
+::: left
+
+**Training**
+
+AI models are trained on massive datasets (books, websites, code, images) to learn patterns, grammar, facts, and styles.
+
+**Pattern Recognition**
+
+When you ask a question, the AI doesn't "think" like a person.
+
+It predicts the most likely next word, sentence, or image based on patterns.
+
+:::
+
+::: right
+
+**No Memory**
+
+AI doesn't remember past conversations (unless in the same chat session). It responds based on what you just asked.
+
+**Not Perfect**
+
+AI can make mistakes, give outdated info, or "hallucinate" (make up facts that sound true but aren't).
+
+:::
 
 ---
 
-# A few examples include:
+# Real-World Examples
 
 <v-clicks>
 
-1. **📸 Photo Tagging & Face Recognition** Your phone or social media app automatically groups your photos by faces or places—powered by AI.
-
-2. **🔍 Search Suggestions** As you type, search engines guess what you mean based on past searches and trends—thank AI for that.
-
-3. **🧭 GPS & Maps** AI predicts traffic, suggests faster routes, and updates real-time arrival times.
-
-4. **📺 Streaming Recommendations** Netflix, YouTube, Spotify, etc., use AI to suggest shows or songs based on what you've watched or listened to.
-
-5. **📱 Voice Assistants** Siri, Alexa, and Google Assistant recognize speech, interpret commands, and even hold mini conversations.
-
-6. **📝 Autocorrect & Smart Text Prediction** Your phone suggests the next word or fixes typos as you type—that’s AI anticipating your intent.
-
-7. **🌡️ Smart Home Devices** Thermostats like Nest learn your preferences and adjust temperatures automatically to save energy.
-
-</v-clicks>
----
-layout: two-cols-header
----
-
-# Common AI Vocabulary
-
-::left::
-
-<v-clicks>
-
-- **AI (Artificial Intelligence)**<br>A computer system that can perform tasks usually requiring human intelligence (like understanding language or recognizing images).
-
-- **ML (Machine Learning)**<br>A type of AI where computers learn from data and improve over time without being explicitly programmed.
-
-- **GPT (Generative Pre-trained Transformer)**<br>A large language model trained on tons of text to predict and generate human-like responses.
-
-- **LLM (Large Language Model)**<br>A type of AI trained on massive text data to understand and generate human language.
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-- **Token**<br>A piece of a word or character that the AI processes; for example, “chatting” might be split into “chat” and “ting”.
-
-- **Prompt**<br>The input or question you give to an AI—what you type to start the conversation.
-
-- **Training Data**<br>The information (usually lots of text) used to teach the AI how to understand and respond.
-
-- **Inference**<br>The process of the AI generating a response based on your input—it’s “thinking” time for the model.
+- **Customer Service** – AI chatbots answer questions 24/7.
+- **Writing Assistance** – Tools like Grammarly or ChatGPT help draft emails, reports, or essays.
+- **Creative Work** – Generate images (DALL·E), music, or video scripts.
+- **Coding** – GitHub Copilot suggests code as you type.
+- **Healthcare** – AI helps analyze medical images or suggest diagnoses.
+- **Education** – Personalized tutoring and instant homework help.
 
 </v-clicks>
 
 ---
+layout: two-cols
+---
 
-# Moments That Matter (AI)
+# A Brief History of AI
 
-```mermaid
-timeline
-  1950 : Alan Turing Test proposed
-  1956 : Dartmouth coins “AI”
-  1997 : Deep Blue beats Kasparov
-  2012 : ImageNet/AlexNet breakthrough
-  2022 : ChatGPT mainstream
-  2025 : Sora 2 Video Creation
-```
+::: left
+
+**1950s**
+
+Alan Turing asks, "Can machines think?" The **Turing Test** is born.
+
+**1997**
+
+IBM's **Deep Blue** beats world chess champion Garry Kasparov.
+
+**2011**
+
+IBM's **Watson** wins *Jeopardy!* against human champions.
+
+:::
+
+::: right
+
+**2016**
+
+**AlphaGo** (by DeepMind) beats the world Go champion.
+
+**2020**
+
+**GPT-3** (by OpenAI) shows advanced language understanding.
+
+**2022**
+
+**ChatGPT** launches and goes viral, reaching 100M users in 2 months.
+
+:::
+
+---
+
+# Key AI Vocabulary
 
 <v-clicks>
 
-- 1950 — Turing Test proposed (Can machines converse like humans?)
-- 1956 — Dartmouth workshop coins “Artificial Intelligence”
-- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
-- 2012 — ImageNet/AlexNet sparks modern deep learning boom
-- 2022 — ChatGPT goes mainstream
-- 2025 - Sora 2 video creation
+- **AI (Artificial Intelligence)** – Machines that perform tasks requiring human-like intelligence.
+- **Machine Learning** – AI systems that learn from data instead of being explicitly programmed.
+- **Neural Network** – A computer system modeled after the human brain.
+- **Natural Language Processing (NLP)** – AI that understands and generates human language.
+- **Prompt** – The instruction or question you give an AI.
+- **Hallucination** – When AI confidently generates false information.
+- **Token** – A chunk of text the AI processes (roughly a word or part of a word).
 
 </v-clicks>
 
 ---
-layout: two-cols-header
+layout: image-right
+image: /ai-interaction.png
 ---
 
-# More AI Milestones
+# How to Interact with AI
 
-::left::
+**Be Clear and Specific**
 
-<v-clicks>
+❌ "Tell me about dogs."
+✅ "Write a 3-paragraph article about how dogs improve mental health."
 
-- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP (Natural Language Processing) and fact retrieval.
+**Give Context**
 
-- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs (Convolutional Neural Networks) and visual recognition success.
+"I'm a college student. Explain blockchain like I'm new to technology."
 
-- **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
+**Use Examples**
 
-- **2020 – GPT-3 Released by OpenAI**<br>Natural language generation reaches astonishing fluency and scale.
+"Write a thank-you note like this: [example]."
 
-</v-clicks>
+**Ask Follow-Ups**
 
-::right::
-
-<v-clicks>
-
-- **2022 – ChatGPT Goes Mainstream**<br>Conversational AI enters daily use with GPT-powered assistants.
-
-- **2023 – AI-Generated Art and Code Boom**<br>Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
-
-- **2024 – GPT-4 Multimodal Release**<br>First major model to understand and generate both text and images with precision.
-
-- **2025 – Sora 2 Release**<br>Model for generating highly realistic, physics-accurate video clips with audio.
-
-</v-clicks>
-<br>
-<br>
-<br>
+"Make it shorter." or "Add more details about the benefits."
 
 ---
-layout: two-cols-header
----
 
-# What ChatGPT Is and Isn’t
-
-
-::left::
+# Types of Prompts
 
 <v-clicks>
 
-## What it’s good at
+**Informational**
+"What are the benefits of meditation?"
 
-</v-clicks>
+**Instructional**
+"Write a grocery list for a week of healthy meals."
 
-<v-clicks>
+**Creative**
+"Write a funny story about a cat who thinks it's a dog."
 
-- **Drafting and rewriting** → Generates first drafts, refines text, and adapts tone or style.
+**Problem-Solving**
+"I have $500 and 3 days. Plan a road trip from Denver to Moab."
 
-- **Summarizing and outlining** → Condenses long materials into key points or structured outlines.
-
-- **Brainstorming ideas** → Sparks creativity for names, titles, lessons, or storylines.
-
-- **Explaining concepts** → Breaks down complex topics in plain language or step-by-step guides.
-
-- **Tutoring and learning aid** → Provides examples, explanations, and feedback for study or practice.
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-## Limits and cautions
-
-</v-clicks>
-
-<v-clicks>
-
-- **Can be wrong (“hallucinations”)** → May sound confident but provide incorrect information; always verify.
-
-- **Not medical, legal, or financial advice** → Use for learning, not for professional decision-making.
-
-- **May be out of date** → Some models don’t have live data; ask for sources or updates.
-
-- **Privacy matters** → Don’t share personal, confidential, or proprietary information.
-
-- **Biases exist** → Reflects training data patterns; double-check for fairness or accuracy.
+**Conversational**
+"What's a good gift for my mom who loves gardening?"
 
 </v-clicks>
 
 ---
 
-# Privacy & Safety Basics
+# Writing Effective Prompts
 
 <v-clicks>
 
-- **Don't share private, financial, or sensitive information.**
+**Be Specific**
 
-- **Remove names, IDs, and other identifiers before sharing content.**
+"Write a blog post" → "Write a 500-word blog post about remote work benefits for Gen Z."
 
-- **Get consent before including others' information or photos.**
+**Set the Tone**
 
-- **Review the AI platform's privacy policy** to understand how your data is used or stored.
+"Write a professional email" vs. "Write a casual, friendly email."
 
-- **Opt out** of data being used for model training, if possible.
+**Define the Format**
 
-- **Follow all legal and institutional privacy requirements** (FERPA, HIPAA, GDPR, etc.).
+"Give me a bulleted list" or "Write it as a poem."
 
-- **Remember:** Even "anonymized" data may still be identifiable if context is unique or detailed.
+**Provide Constraints**
 
-- **Use summaries or excerpts instead of uploading full files.**
+"Explain this in 3 sentences" or "Use simple language for a 5th grader."
 
 </v-clicks>
 
 ---
+layout: two-cols
+---
 
-# Checklist Before Sharing
+# Prompt Example Breakdown
 
-<v-clicks>
+::: left
 
-- **Does this include sensitive/personal/financial info?**
-  - ➔ Redact or remove details; ensure it's truly anonymized.
+**Weak Prompt:**
 
-- **Are other people referenced?**
-  - ➔ Get explicit consent, or further anonymize content.
+"Write about dogs."
 
-- **Need to upload a file?**
-  - ➔ Use excerpts or summaries; remove sensitive data.
-  
-- **Have you checked the platform's privacy policy and settings?**
+**Problems:**
+- Too vague
+- No clear goal
+- No audience or tone
 
-</v-clicks>
+:::
 
-<!-- 
-```mermaid
-flowchart LR
-  S(Share with ChatGPT?) --> PII{Contains personal/financial info?}
-  PII -- Yes --> R[Redact names/IDs/addresses]
-  PII -- No --> C{Mentions others?
-  Need consent?}
-  R --> C
-  C -- Yes --> GC[Get consent or anonymize]
-  C -- No --> U{Need to upload a file?}
-  U -- No --> SUM[Paste excerpt / ask for summary]
-  U -- Yes --> CK[Remove sensitive data first]
-  CK --> Go[Proceed]
-  SUM --> Go
-``` 
--->
+::: right
+
+**Strong Prompt:**
+
+"Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health."
+
+**Why It Works:**
+- Clear purpose (blog article)
+- Specific length (3 paragraphs)
+- Defined topics (companionship, exercise, mental health)
+- Tone set (friendly, informative)
+
+:::
 
 ---
 
-# A few common ways AI is used today
+# Example: Weak vs. Strong Prompt
 
-<v-clicks>
+❌ **Weak:**
+"Tell me about AI."
 
-- 💬 **Conversational Assistants:**  
-  Chatbots like ChatGPT, Google Assistant, and Siri help answer questions and automate everyday tasks.
-
-- 🎨 **Image and Art Generation:**  
-  Tools such as DALL·E and Midjourney can create unique images from simple text prompts.
-
-- 📈 **Business Productivity:**  
-  Automate emails, summarize meetings, write reports, and generate marketing content.
-
-- 🧠 **Education & Tutoring:**  
-  Personalized explanations, homework help, and support for language learning.
-
-- 🎙️ **Realistic Voice Companions:**  
-  Platforms such as Sesame feature expressive AI voices for lifelike conversation.
-
-- 🎥 **Ultra-Realistic AI Video Creation (New!):**  
-  Sora 2 by OpenAI lets you turn text prompts into cinematic videos, animate people or pets, and add music or sound effects.  
-
-</v-clicks>
-
----
-layout: center
----
-
-# <a href="https://app.sesame.com/" target="_blank">Conversational voice demo</a>
-
----
-layout: center
----
-
-# <a href="https://sora.chatgpt.com/explore" target="_blank">Video creation demo</a>
----
-layout: center
----
-
-# <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
+✅ **Strong:**
+"Explain how AI chatbots work in 3 sentences, using simple language for someone who's never used AI before."
 
 ---
 
-# A few practical ways to use ChatGPT
+❌ **Weak:**
+"Help me write an email."
 
-<v-clicks>
-
-1. 📝 **Draft Emails or Messages**  
-   Quickly write polite, professional, or friendly emails and texts.
-
-2. 📅 **Plan Your Day or Week**  
-   Ask for a customized daily schedule based on your tasks and preferences.
-
-3. 🍽️ **Meal Planning and Recipes**  
-   Get meal ideas based on ingredients you have or dietary needs.
-
-4. 📚 **Explain Complex Topics Simply**  
-   Ask for an easy-to-understand explanation of concepts like credit scores or climate change.
-
-5. 🛠️ **Brainstorm Ideas**  
-   Generate creative ideas for gifts, events, projects, or side hustles.
-
-6. 🌍 **Translate and Adapt**  
-   Translate messages and adjust tone/reading level for your audience.
-
-7. ♿ **Accessibility Helpers**  
-   Simplify to a 6th‑grade reading level or generate step‑by‑step checklists.
-
-</v-clicks>
+✅ **Strong:**
+"Write a polite email to my professor asking to reschedule my meeting from Thursday to Friday because of a doctor's appointment."
 
 ---
 
-```mermaid
-mindmap
-  root((**Everyday Uses**))
-    Draft
-      Emails
-      Texts
-    Plan
-      Schedules
-      Trips
-    Explain
-      Simple summaries
-      Step-by-step
-    Brainstorm
-      Ideas
-      Outlines
-    Translate
-      Language
-      Tone/reading level
-    Accessibility
-      Simplify to 6th grade
-      Checklists
-```
+# Example Output: Strong Prompt
 
----
-
-# How to write a good prompt
-
-<v-clicks>
-
-```mermaid
-flowchart LR
-  A[Role] --> B[Task]
-  B --> C[Context]
-  C --> D[Constraints]
-  D --> E[Desired Format]
-  E --> F[Submit]
-  F --> G{Good?}
-  G -- No --> H[Revise: add missing details]
-  H --> F
-  G -- Yes --> I[Use + fact-check]
-```
-</v-clicks>
-
-<v-clicks>
-
-- 🧩 **Be specific**  
-  "Tell me a bedtime story about a robot and a cat" vs. "Write a story"
-- 🗣️ **Use natural language**  
-  Pretend you're talking to a helpful friend, not coding a machine.
-- 🎨 **Set the tone**  
-  Want it funny? Professional? Thoughtful? Just say so!
-- 💡 **Give examples**  
-  "Make it sound like a Shakespearean poem" or "List it like a recipe."
-- 🔁 **Tweak and test**  
-  If the first response isn't great, try rewording or asking from a new angle!
-
- </v-clicks>
-
----
-
-# For example:
-
-<br>
-
-## ❌ Poor Prompt
-
-"Write something about dogs."
-<br>
-
-## ✅ Good Prompt
+**Prompt:**
 
 "Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health."
 
@@ -475,19 +305,13 @@ flowchart LR
 <v-clicks>
 
 1. ✉️ Write a polite message to reschedule my dentist appointment.
-
 2. 🧑‍🍳 Give me a 3-day healthy meal plan with simple recipes.
-
-3. 🧠 Explain how interest rates work like I’m in 9th grade.
-
+3. 🧠 Explain how interest rates work like I'm in 9th grade.
 4. 🧳 Suggest a weekend getaway near [a city] under $300.
-
-5. 🎁 What’s a fun birthday gift idea for a 12-year-old who loves space?
-
-6. 🐶 Write a funny haiku about a dog who’s afraid of squirrels.
+5. 🎁 What's a fun birthday gift idea for a 12-year-old who loves space?
+6. 🐶 Write a funny haiku about a dog who's afraid of squirrels.
 
 </v-clicks>
-
 
 ---
 layout: two-cols-header
@@ -495,7 +319,7 @@ layout: two-cols-header
 
 # Group Activity - Try ChatGPT yourself!
 
-::left::
+::: left
 
 - **<u>Timebox: 10 minutes</u>**
 - On your phone or a shared device:
@@ -506,22 +330,45 @@ layout: two-cols-header
 - No smartphone? Pair with a neighbor.
 - Share your results with the group (2–3 volunteers)
 
-::right::
+:::
+
+::: right
 
 <img width="300" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
-<br>
-<br>
-<br>
+
+:::
+
+---
+
+# Major AI Providers
+
+<div class="grid grid-cols-2 gap-8 items-center justify-items-center mt-8">
+  <div class="text-center">
+    <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" alt="Google Gemini" class="h-20 mx-auto mb-2" />
+    <p class="font-semibold">Google Gemini</p>
+  </div>
+  <div class="text-center">
+    <img src="https://www.perplexity.ai/favicon.svg" alt="Perplexity" class="h-20 mx-auto mb-2" />
+    <p class="font-semibold">Perplexity</p>
+  </div>
+  <div class="text-center">
+    <img src="https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png" alt="OpenAI ChatGPT" class="h-20 mx-auto mb-2" />
+    <p class="font-semibold">OpenAI ChatGPT</p>
+  </div>
+  <div class="text-center">
+    <img src="https://claude.ai/images/claude_app_icon.png" alt="Anthropic Claude" class="h-20 mx-auto mb-2" />
+    <p class="font-semibold">Anthropic Claude</p>
+  </div>
+</div>
 
 ---
 
 # Questions?
 
-<img src="/qna-slide.png" alt="Questions and answers illustration" />
+<img width="600" src="/qna-slide.png" alt="Questions and answers illustration" />
 
 ---
 layout: image-left
-
 image: end-slide.png
 ---
 
