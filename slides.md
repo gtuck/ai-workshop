@@ -476,14 +476,6 @@ layout: two-cols-header
 
 ---
 
-# 💡 Why It’s Better
-- Clearer structure with paragraph guidance  
-- Defines tone and audience  
-- Encourages examples and storytelling  
-- Produces more consistent, engaging results
-
----
-
 # Prompt Ideas You Can Try Right Now
 
 <v-clicks>
