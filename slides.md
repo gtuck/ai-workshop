@@ -454,19 +454,33 @@ flowchart LR
  </v-clicks>
 
 ---
+layout: two-cols-header
+---
 
-# For example:
+# Prompt Engineering
 
-<br>
-
+::left::
 ## ❌ Poor Prompt
-
 "Write something about dogs."
-<br>
 
-## ✅ Good Prompt
+## 👍🏻 A little better
+“Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health.”
 
-"Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health."
+::right::
+## 🎓 Pro-Level
+ “Write a warm, conversational 3-paragraph blog article that explains the benefits of owning a dog.  
+ - **Paragraph 1:** Introduce why dogs make great companions and how they enrich daily life.  
+ - **Paragraph 2:** Describe how owning a dog encourages physical activity and outdoor exercise.  
+ - **Paragraph 3:** Explain how dogs support mental health and emotional well-being.  
+ Use friendly language, relatable examples, and an uplifting tone suitable for a lifestyle blog.”
+
+---
+
+# 💡 Why It’s Better
+- Clearer structure with paragraph guidance  
+- Defines tone and audience  
+- Encourages examples and storytelling  
+- Produces more consistent, engaging results
 
 ---
 
