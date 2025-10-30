@@ -514,6 +514,54 @@ layout: two-cols-header
 <br>
 
 ---
+layout: center
+class: text-center
+---
+
+# Major AI Providers (2025)
+**🤖 Leaders shaping the AI ecosystem**
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-10 justify-center items-center mt-8">
+
+  <!-- OpenAI -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/openai.com" alt="OpenAI" class="h-20 mb-2" />
+    <span class="text-sm font-medium">OpenAI (ChatGBT)</span>
+  </div>
+
+  <!-- Anthropic -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/anthropic.com" alt="Anthropic" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Anthropic (Claude)</span>
+  </div>
+
+  <!-- Google (Gemini) -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/google.com" alt="Google Gemini" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Google (Gemini)</span>
+  </div>
+
+  <!-- Perplexity -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/perplexity.ai" alt="Perplexity" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Perplexity</span>
+  </div>
+
+  <!-- Meta (LLaMA) -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/meta.com" alt="Meta LLaMA" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Meta (LLaMA)</span>
+  </div>
+
+  <!-- xAI (Grok) -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/x.ai" alt="xAI Grok" class="h-20 mb-2" />
+    <span class="text-sm font-medium">xAI (Grok)</span>
+  </div>
+
+</div>
+
+---
 
 # Questions?
 
