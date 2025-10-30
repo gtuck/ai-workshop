@@ -54,7 +54,7 @@ image: /title-slide.png
 - Understand what generative AI is and how it works  
 - Explore real-world examples of how AI already impacts our lives  
 - A few milestones in AI history and key AI vocabulary and concepts  
-- Practice writing effective prompts to get useful responses from ChatGPT  
+- Practice writing effective prompts to get helpful responses from ChatGPT  
 - Try hands-on tools and leave with ideas you can apply right away
 - Have FUN!!!
 
@@ -165,7 +165,7 @@ timeline
 <v-clicks>
 
 - 1950 — Turing Test proposed (Can machines converse like humans?)
-- 1956 — Dartmouth workshop coins “Artificial Intelligence”
+- 1956 — Dartmouth workshop coined the term “Artificial Intelligence”
 - 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
 - 2012 — ImageNet/AlexNet sparks modern deep learning boom
 - 2022 — ChatGPT goes mainstream
@@ -374,7 +374,7 @@ layout: center
    Quickly write polite, professional, or friendly emails and texts.
 
 2. 📅 **Plan Your Day or Week**  
-   Ask for a customized daily schedule based on your tasks and preferences.
+   Request a customized daily schedule tailored to your tasks and preferences.
 
 3. 🍽️ **Meal Planning and Recipes**  
    Get meal ideas based on ingredients you have or dietary needs.
@@ -468,11 +468,11 @@ layout: two-cols-header
 
 ::right::
 ## 🎓 Pro-Level
- “Write a warm, conversational 3-paragraph blog article that explains the benefits of owning a dog.  
+ "Write a warm, conversational 3-paragraph blog article that explains the benefits of owning a dog.  
  - **Paragraph 1:** Introduce why dogs make great companions and how they enrich daily life.  
  - **Paragraph 2:** Describe how owning a dog encourages physical activity and outdoor exercise.  
  - **Paragraph 3:** Explain how dogs support mental health and emotional well-being.  
- Use friendly language, relatable examples, and an uplifting tone suitable for a lifestyle blog.”
+ Use friendly language, relatable examples, and an uplifting tone suitable for a lifestyle blog."
 
 ---
 
@@ -515,7 +515,7 @@ layout: two-cols-header
 - On your phone or a shared device:
   - Scan the QR code to open chatgpt.com →
 - **<u>Enter your prompt:</u>**
-  - Example: Plan a 3-day Southern Utah road trip with kids (ages, 12, 9. 6).
+  - Example: Plan a 3-day Southern Utah road trip with kids (ages 12, 9, 6).
   - Now, try changing the destination or group type.
 - No smartphone? Pair with a neighbor.
 - Share your results with the group (2–3 volunteers)
