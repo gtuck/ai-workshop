@@ -19,8 +19,8 @@ author: Garth Tuck
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
 
-# download: true
-# exportFilename: Garth-Tuck-AI-Workshop
+download: true
+exportFilename: Garth-Tuck-AI-Workshop
 ---
 
 <style>
